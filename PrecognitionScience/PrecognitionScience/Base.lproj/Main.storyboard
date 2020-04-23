@@ -93,6 +93,8 @@
                         <viewLayoutGuide key="safeArea" id="6Tk-OE-BBY"/>
                     </view>
                     <connections>
+                        <outlet property="correctGuesses" destination="seZ-Hk-HYE" id="iio-P4-82z"/>
+                        <outlet property="incorrectGuesses" destination="3nS-YJ-IFq" id="9Zi-sO-Xuu"/>
                         <outlet property="randomLetter" destination="Gpc-sv-GDc" id="bJb-fW-SZt"/>
                         <outlet property="yourGuess" destination="AA7-Be-qvs" id="Sb9-bX-tyS"/>
                     </connections>
