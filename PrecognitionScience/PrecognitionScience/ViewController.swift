@@ -27,11 +27,12 @@ class ViewController: UIViewController {
         @IBOutlet weak var yourGuess: UILabel!
     
     @IBAction func aPressed(_ sender: Any) {
-        yourGuess.text = "A"
+       
         
         numberDraw()
 
         prediction = "A"
+         yourGuess.text = prediction
          checkPrediction(prediction: prediction, result: result)
         
         correctGuesses.text = "\(correct)"
@@ -40,10 +41,10 @@ class ViewController: UIViewController {
     
     @IBAction func bPressed(_ sender: Any) {
         
-        yourGuess.text = "B"
+    
         numberDraw()
- 
-        prediction = "B"
+ prediction = "B"
+           yourGuess.text = prediction
                 checkPrediction(prediction: prediction, result: result)
         
         correctGuesses.text = "\(correct)"
@@ -53,6 +54,8 @@ class ViewController: UIViewController {
     
     func numberDraw() {
   
+   
+        
         let options = ["A", "B"]
         let randomOption = options.randomElement()!
                result = randomOption
@@ -70,10 +73,17 @@ class ViewController: UIViewController {
     
     func checkPrediction(prediction: String, result: String) {
 
+     
+        
         if prediction == result {
             correct = correct + 1
+            randomLetter.backgroundColor = UIColor.green
+      
+                   
+           
         } else {
             incorrect = incorrect + 1
+                randomLetter.backgroundColor = UIColor.red
         }
         
     }

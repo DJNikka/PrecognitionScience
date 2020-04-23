@@ -52,10 +52,13 @@
                                 <color key="textColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
                                 <nil key="highlightedColor"/>
                             </label>
-                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" text="Prediction:" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontForContentSizeCategory="YES" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="AA7-Be-qvs">
-                                <rect key="frame" x="20" y="589" width="300" height="83"/>
-                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
-                                <fontDescription key="fontDescription" name="Avenir-Book" family="Avenir" pointSize="34"/>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="____" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontForContentSizeCategory="YES" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="Gpc-sv-GDc">
+                                <rect key="frame" x="157" y="662" width="100" height="100"/>
+                                <constraints>
+                                    <constraint firstAttribute="height" constant="100" id="4wr-OI-kkf"/>
+                                    <constraint firstAttribute="width" constant="100" id="9YP-Wg-MPN"/>
+                                </constraints>
+                                <fontDescription key="fontDescription" name="Avenir-Book" family="Avenir" pointSize="50"/>
                                 <color key="textColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
                                 <nil key="highlightedColor"/>
                             </label>
@@ -75,10 +78,13 @@
                                 <color key="textColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
                                 <nil key="highlightedColor"/>
                             </label>
-                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" text="____" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontForContentSizeCategory="YES" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="Gpc-sv-GDc">
-                                <rect key="frame" x="149" y="236" width="117" height="94"/>
-                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
-                                <fontDescription key="fontDescription" name="Avenir-Book" family="Avenir" pointSize="34"/>
+                            <label hidden="YES" opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="____" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontForContentSizeCategory="YES" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="AA7-Be-qvs">
+                                <rect key="frame" x="157" y="537" width="100" height="100"/>
+                                <constraints>
+                                    <constraint firstAttribute="height" constant="100" id="qwz-2Z-Z1I"/>
+                                    <constraint firstAttribute="width" constant="100" id="teh-oG-V7l"/>
+                                </constraints>
+                                <fontDescription key="fontDescription" name="Avenir-Book" family="Avenir" pointSize="42"/>
                                 <color key="textColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
                                 <nil key="highlightedColor"/>
                             </label>
@@ -87,7 +93,11 @@
                         <constraints>
                             <constraint firstItem="6Tk-OE-BBY" firstAttribute="trailing" secondItem="c7P-c1-qpN" secondAttribute="trailing" constant="10" id="BKg-kz-CLD"/>
                             <constraint firstItem="wLw-YW-6vg" firstAttribute="leading" secondItem="6Tk-OE-BBY" secondAttribute="leading" constant="10" id="EYk-Gb-y7n"/>
+                            <constraint firstItem="6Tk-OE-BBY" firstAttribute="bottom" secondItem="Gpc-sv-GDc" secondAttribute="bottom" constant="100" id="Iew-Za-DlF"/>
                             <constraint firstItem="wLw-YW-6vg" firstAttribute="centerY" secondItem="8bC-Xf-vdC" secondAttribute="centerY" id="UxN-MK-HkM"/>
+                            <constraint firstItem="Gpc-sv-GDc" firstAttribute="centerX" secondItem="8bC-Xf-vdC" secondAttribute="centerX" id="VN9-lr-kIf"/>
+                            <constraint firstItem="AA7-Be-qvs" firstAttribute="centerX" secondItem="8bC-Xf-vdC" secondAttribute="centerX" id="gTk-1i-7ng"/>
+                            <constraint firstItem="Gpc-sv-GDc" firstAttribute="top" secondItem="AA7-Be-qvs" secondAttribute="bottom" constant="25" id="y8S-kt-t7X"/>
                             <constraint firstItem="c7P-c1-qpN" firstAttribute="centerY" secondItem="8bC-Xf-vdC" secondAttribute="centerY" id="ynf-4X-SnX"/>
                         </constraints>
                         <viewLayoutGuide key="safeArea" id="6Tk-OE-BBY"/>
