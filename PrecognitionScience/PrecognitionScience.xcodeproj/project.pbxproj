@@ -15,6 +15,10 @@
 		21CB8631245216190073C2BF /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 21CB862F245216190073C2BF /* LaunchScreen.storyboard */; };
 		21CB863C245216190073C2BF /* PrecognitionScienceTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 21CB863B245216190073C2BF /* PrecognitionScienceTests.swift */; };
 		21CB8647245216190073C2BF /* PrecognitionScienceUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 21CB8646245216190073C2BF /* PrecognitionScienceUITests.swift */; };
+		21CB865524527F0B0073C2BF /* correct1.wav in Resources */ = {isa = PBXBuildFile; fileRef = 21CB865424527F0B0073C2BF /* correct1.wav */; };
+		21CB865724527F7F0073C2BF /* incorrect1.wav in Resources */ = {isa = PBXBuildFile; fileRef = 21CB865624527F7F0073C2BF /* incorrect1.wav */; };
+		21CB86592452806B0073C2BF /* correct2.wav in Resources */ = {isa = PBXBuildFile; fileRef = 21CB86582452806B0073C2BF /* correct2.wav */; };
+		21CB865B2452806F0073C2BF /* correct3.wav in Resources */ = {isa = PBXBuildFile; fileRef = 21CB865A2452806F0073C2BF /* correct3.wav */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -49,6 +53,10 @@
 		21CB8642245216190073C2BF /* PrecognitionScienceUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = PrecognitionScienceUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		21CB8646245216190073C2BF /* PrecognitionScienceUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PrecognitionScienceUITests.swift; sourceTree = "<group>"; };
 		21CB8648245216190073C2BF /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		21CB865424527F0B0073C2BF /* correct1.wav */ = {isa = PBXFileReference; lastKnownFileType = audio.wav; path = correct1.wav; sourceTree = "<group>"; };
+		21CB865624527F7F0073C2BF /* incorrect1.wav */ = {isa = PBXFileReference; lastKnownFileType = audio.wav; path = incorrect1.wav; sourceTree = "<group>"; };
+		21CB86582452806B0073C2BF /* correct2.wav */ = {isa = PBXFileReference; lastKnownFileType = audio.wav; path = correct2.wav; sourceTree = "<group>"; };
+		21CB865A2452806F0073C2BF /* correct3.wav */ = {isa = PBXFileReference; lastKnownFileType = audio.wav; path = correct3.wav; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -83,6 +91,10 @@
 				21CB863A245216190073C2BF /* PrecognitionScienceTests */,
 				21CB8645245216190073C2BF /* PrecognitionScienceUITests */,
 				21CB8622245216180073C2BF /* Products */,
+				21CB865424527F0B0073C2BF /* correct1.wav */,
+				21CB865624527F7F0073C2BF /* incorrect1.wav */,
+				21CB86582452806B0073C2BF /* correct2.wav */,
+				21CB865A2452806F0073C2BF /* correct3.wav */,
 			);
 			sourceTree = "<group>";
 		};
@@ -232,9 +244,13 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				21CB86592452806B0073C2BF /* correct2.wav in Resources */,
 				21CB8631245216190073C2BF /* LaunchScreen.storyboard in Resources */,
+				21CB865B2452806F0073C2BF /* correct3.wav in Resources */,
 				21CB862E245216190073C2BF /* Assets.xcassets in Resources */,
+				21CB865724527F7F0073C2BF /* incorrect1.wav in Resources */,
 				21CB862C245216180073C2BF /* Main.storyboard in Resources */,
+				21CB865524527F0B0073C2BF /* correct1.wav in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};

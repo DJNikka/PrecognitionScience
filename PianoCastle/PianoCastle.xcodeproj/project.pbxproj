@@ -1,0 +1,595 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 50;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		21FB4AA3245639DC00EBDDDB /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 21FB4AA2245639DC00EBDDDB /* AppDelegate.swift */; };
+		21FB4AA5245639DC00EBDDDB /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 21FB4AA4245639DC00EBDDDB /* SceneDelegate.swift */; };
+		21FB4AA7245639DC00EBDDDB /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 21FB4AA6245639DC00EBDDDB /* ViewController.swift */; };
+		21FB4AAA245639DC00EBDDDB /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 21FB4AA8245639DC00EBDDDB /* Main.storyboard */; };
+		21FB4AAC245639DD00EBDDDB /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 21FB4AAB245639DD00EBDDDB /* Assets.xcassets */; };
+		21FB4AAF245639DD00EBDDDB /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 21FB4AAD245639DD00EBDDDB /* LaunchScreen.storyboard */; };
+		21FB4ABA245639DD00EBDDDB /* PianoCastleTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 21FB4AB9245639DD00EBDDDB /* PianoCastleTests.swift */; };
+		21FB4AC5245639DD00EBDDDB /* PianoCastleUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 21FB4AC4245639DD00EBDDDB /* PianoCastleUITests.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		21FB4AB6245639DD00EBDDDB /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 21FB4A97245639DC00EBDDDB /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 21FB4A9E245639DC00EBDDDB;
+			remoteInfo = PianoCastle;
+		};
+		21FB4AC1245639DD00EBDDDB /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 21FB4A97245639DC00EBDDDB /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 21FB4A9E245639DC00EBDDDB;
+			remoteInfo = PianoCastle;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		21FB4A9F245639DC00EBDDDB /* PianoCastle.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = PianoCastle.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		21FB4AA2245639DC00EBDDDB /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		21FB4AA4245639DC00EBDDDB /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
+		21FB4AA6245639DC00EBDDDB /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		21FB4AA9245639DC00EBDDDB /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		21FB4AAB245639DD00EBDDDB /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		21FB4AAE245639DD00EBDDDB /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		21FB4AB0245639DD00EBDDDB /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		21FB4AB5245639DD00EBDDDB /* PianoCastleTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = PianoCastleTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		21FB4AB9245639DD00EBDDDB /* PianoCastleTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PianoCastleTests.swift; sourceTree = "<group>"; };
+		21FB4ABB245639DD00EBDDDB /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		21FB4AC0245639DD00EBDDDB /* PianoCastleUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = PianoCastleUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		21FB4AC4245639DD00EBDDDB /* PianoCastleUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PianoCastleUITests.swift; sourceTree = "<group>"; };
+		21FB4AC6245639DD00EBDDDB /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		21FB4A9C245639DC00EBDDDB /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		21FB4AB2245639DD00EBDDDB /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		21FB4ABD245639DD00EBDDDB /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		21FB4A96245639DC00EBDDDB = {
+			isa = PBXGroup;
+			children = (
+				21FB4AA1245639DC00EBDDDB /* PianoCastle */,
+				21FB4AB8245639DD00EBDDDB /* PianoCastleTests */,
+				21FB4AC3245639DD00EBDDDB /* PianoCastleUITests */,
+				21FB4AA0245639DC00EBDDDB /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		21FB4AA0245639DC00EBDDDB /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				21FB4A9F245639DC00EBDDDB /* PianoCastle.app */,
+				21FB4AB5245639DD00EBDDDB /* PianoCastleTests.xctest */,
+				21FB4AC0245639DD00EBDDDB /* PianoCastleUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		21FB4AA1245639DC00EBDDDB /* PianoCastle */ = {
+			isa = PBXGroup;
+			children = (
+				21FB4AA2245639DC00EBDDDB /* AppDelegate.swift */,
+				21FB4AA4245639DC00EBDDDB /* SceneDelegate.swift */,
+				21FB4AA6245639DC00EBDDDB /* ViewController.swift */,
+				21FB4AA8245639DC00EBDDDB /* Main.storyboard */,
+				21FB4AAB245639DD00EBDDDB /* Assets.xcassets */,
+				21FB4AAD245639DD00EBDDDB /* LaunchScreen.storyboard */,
+				21FB4AB0245639DD00EBDDDB /* Info.plist */,
+			);
+			path = PianoCastle;
+			sourceTree = "<group>";
+		};
+		21FB4AB8245639DD00EBDDDB /* PianoCastleTests */ = {
+			isa = PBXGroup;
+			children = (
+				21FB4AB9245639DD00EBDDDB /* PianoCastleTests.swift */,
+				21FB4ABB245639DD00EBDDDB /* Info.plist */,
+			);
+			path = PianoCastleTests;
+			sourceTree = "<group>";
+		};
+		21FB4AC3245639DD00EBDDDB /* PianoCastleUITests */ = {
+			isa = PBXGroup;
+			children = (
+				21FB4AC4245639DD00EBDDDB /* PianoCastleUITests.swift */,
+				21FB4AC6245639DD00EBDDDB /* Info.plist */,
+			);
+			path = PianoCastleUITests;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		21FB4A9E245639DC00EBDDDB /* PianoCastle */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 21FB4AC9245639DD00EBDDDB /* Build configuration list for PBXNativeTarget "PianoCastle" */;
+			buildPhases = (
+				21FB4A9B245639DC00EBDDDB /* Sources */,
+				21FB4A9C245639DC00EBDDDB /* Frameworks */,
+				21FB4A9D245639DC00EBDDDB /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = PianoCastle;
+			productName = PianoCastle;
+			productReference = 21FB4A9F245639DC00EBDDDB /* PianoCastle.app */;
+			productType = "com.apple.product-type.application";
+		};
+		21FB4AB4245639DD00EBDDDB /* PianoCastleTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 21FB4ACC245639DD00EBDDDB /* Build configuration list for PBXNativeTarget "PianoCastleTests" */;
+			buildPhases = (
+				21FB4AB1245639DD00EBDDDB /* Sources */,
+				21FB4AB2245639DD00EBDDDB /* Frameworks */,
+				21FB4AB3245639DD00EBDDDB /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				21FB4AB7245639DD00EBDDDB /* PBXTargetDependency */,
+			);
+			name = PianoCastleTests;
+			productName = PianoCastleTests;
+			productReference = 21FB4AB5245639DD00EBDDDB /* PianoCastleTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		21FB4ABF245639DD00EBDDDB /* PianoCastleUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 21FB4ACF245639DD00EBDDDB /* Build configuration list for PBXNativeTarget "PianoCastleUITests" */;
+			buildPhases = (
+				21FB4ABC245639DD00EBDDDB /* Sources */,
+				21FB4ABD245639DD00EBDDDB /* Frameworks */,
+				21FB4ABE245639DD00EBDDDB /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				21FB4AC2245639DD00EBDDDB /* PBXTargetDependency */,
+			);
+			name = PianoCastleUITests;
+			productName = PianoCastleUITests;
+			productReference = 21FB4AC0245639DD00EBDDDB /* PianoCastleUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		21FB4A97245639DC00EBDDDB /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 1130;
+				LastUpgradeCheck = 1130;
+				ORGANIZATIONNAME = "Konstantine Nikka-Sher Piterman";
+				TargetAttributes = {
+					21FB4A9E245639DC00EBDDDB = {
+						CreatedOnToolsVersion = 11.3;
+					};
+					21FB4AB4245639DD00EBDDDB = {
+						CreatedOnToolsVersion = 11.3;
+						TestTargetID = 21FB4A9E245639DC00EBDDDB;
+					};
+					21FB4ABF245639DD00EBDDDB = {
+						CreatedOnToolsVersion = 11.3;
+						TestTargetID = 21FB4A9E245639DC00EBDDDB;
+					};
+				};
+			};
+			buildConfigurationList = 21FB4A9A245639DC00EBDDDB /* Build configuration list for PBXProject "PianoCastle" */;
+			compatibilityVersion = "Xcode 9.3";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 21FB4A96245639DC00EBDDDB;
+			productRefGroup = 21FB4AA0245639DC00EBDDDB /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				21FB4A9E245639DC00EBDDDB /* PianoCastle */,
+				21FB4AB4245639DD00EBDDDB /* PianoCastleTests */,
+				21FB4ABF245639DD00EBDDDB /* PianoCastleUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		21FB4A9D245639DC00EBDDDB /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				21FB4AAF245639DD00EBDDDB /* LaunchScreen.storyboard in Resources */,
+				21FB4AAC245639DD00EBDDDB /* Assets.xcassets in Resources */,
+				21FB4AAA245639DC00EBDDDB /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		21FB4AB3245639DD00EBDDDB /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		21FB4ABE245639DD00EBDDDB /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		21FB4A9B245639DC00EBDDDB /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				21FB4AA7245639DC00EBDDDB /* ViewController.swift in Sources */,
+				21FB4AA3245639DC00EBDDDB /* AppDelegate.swift in Sources */,
+				21FB4AA5245639DC00EBDDDB /* SceneDelegate.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		21FB4AB1245639DD00EBDDDB /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				21FB4ABA245639DD00EBDDDB /* PianoCastleTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		21FB4ABC245639DD00EBDDDB /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				21FB4AC5245639DD00EBDDDB /* PianoCastleUITests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		21FB4AB7245639DD00EBDDDB /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 21FB4A9E245639DC00EBDDDB /* PianoCastle */;
+			targetProxy = 21FB4AB6245639DD00EBDDDB /* PBXContainerItemProxy */;
+		};
+		21FB4AC2245639DD00EBDDDB /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 21FB4A9E245639DC00EBDDDB /* PianoCastle */;
+			targetProxy = 21FB4AC1245639DD00EBDDDB /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		21FB4AA8245639DC00EBDDDB /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				21FB4AA9245639DC00EBDDDB /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		21FB4AAD245639DD00EBDDDB /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				21FB4AAE245639DD00EBDDDB /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		21FB4AC7245639DD00EBDDDB /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 13.2;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		21FB4AC8245639DD00EBDDDB /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 13.2;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		21FB4ACA245639DD00EBDDDB /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = D8ZBA7RCZR;
+				INFOPLIST_FILE = PianoCastle/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = PianoCastle.PianoCastle;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		21FB4ACB245639DD00EBDDDB /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = D8ZBA7RCZR;
+				INFOPLIST_FILE = PianoCastle/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = PianoCastle.PianoCastle;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+		21FB4ACD245639DD00EBDDDB /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = D8ZBA7RCZR;
+				INFOPLIST_FILE = PianoCastleTests/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 13.2;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = PianoCastle.PianoCastleTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/PianoCastle.app/PianoCastle";
+			};
+			name = Debug;
+		};
+		21FB4ACE245639DD00EBDDDB /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = D8ZBA7RCZR;
+				INFOPLIST_FILE = PianoCastleTests/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 13.2;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = PianoCastle.PianoCastleTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/PianoCastle.app/PianoCastle";
+			};
+			name = Release;
+		};
+		21FB4AD0245639DD00EBDDDB /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = D8ZBA7RCZR;
+				INFOPLIST_FILE = PianoCastleUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = PianoCastle.PianoCastleUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = PianoCastle;
+			};
+			name = Debug;
+		};
+		21FB4AD1245639DD00EBDDDB /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = D8ZBA7RCZR;
+				INFOPLIST_FILE = PianoCastleUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = PianoCastle.PianoCastleUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = PianoCastle;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		21FB4A9A245639DC00EBDDDB /* Build configuration list for PBXProject "PianoCastle" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				21FB4AC7245639DD00EBDDDB /* Debug */,
+				21FB4AC8245639DD00EBDDDB /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		21FB4AC9245639DD00EBDDDB /* Build configuration list for PBXNativeTarget "PianoCastle" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				21FB4ACA245639DD00EBDDDB /* Debug */,
+				21FB4ACB245639DD00EBDDDB /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		21FB4ACC245639DD00EBDDDB /* Build configuration list for PBXNativeTarget "PianoCastleTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				21FB4ACD245639DD00EBDDDB /* Debug */,
+				21FB4ACE245639DD00EBDDDB /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		21FB4ACF245639DD00EBDDDB /* Build configuration list for PBXNativeTarget "PianoCastleUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				21FB4AD0245639DD00EBDDDB /* Debug */,
+				21FB4AD1245639DD00EBDDDB /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 21FB4A97245639DC00EBDDDB /* Project object */;
+}

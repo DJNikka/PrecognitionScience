@@ -7,6 +7,7 @@
 //
 
 import UIKit
+import AVFoundation
 
 class ViewController: UIViewController {
 
@@ -17,6 +18,8 @@ class ViewController: UIViewController {
     var prediction: String!
     
     var result: String!
+    
+    var audioPlayer = AVAudioPlayer()
     
     @IBOutlet weak var correctGuesses: UILabel!
     @IBOutlet weak var incorrectGuesses: UILabel!
@@ -61,8 +64,6 @@ class ViewController: UIViewController {
                result = randomOption
         randomLetter.text = result
         
-
-        
         print(randomOption)
 
       print(correct)
@@ -70,20 +71,44 @@ class ViewController: UIViewController {
         
     }
     
-    
     func checkPrediction(prediction: String, result: String) {
 
-     
+     //  Needs to allow variable to change the number of cells so it can be 1/10 or 1/100 roulette. 
         
         if prediction == result {
             correct = correct + 1
             randomLetter.backgroundColor = UIColor.green
       
-                   
+            let sounds = ["correct1"]
+            
+            var randomBell = sounds.randomElement()
+            
+            
+            let sound = Bundle.main.path(forResource: randomBell, ofType: ".wav")
+            
+            do {
+                audioPlayer = try AVAudioPlayer(contentsOf: URL(fileURLWithPath: sound!))
+                audioPlayer.play()
+            }
+            catch {
+                print(error)
+            }
            
         } else {
             incorrect = incorrect + 1
                 randomLetter.backgroundColor = UIColor.red
+            let sound = Bundle.main.path(forResource: "incorrect1", ofType: ".wav")
+            
+            do {
+           audioPlayer = try AVAudioPlayer(contentsOf: URL(fileURLWithPath: sound!))
+              
+                audioPlayer.volume = 0.1
+                audioPlayer.play()
+                
+            }
+        catch {
+                        print(error)
+                }
         }
         
     }

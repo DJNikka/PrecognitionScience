@@ -1,0 +1,595 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 50;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		21CB866924538DD70073C2BF /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 21CB866824538DD70073C2BF /* AppDelegate.swift */; };
+		21CB866B24538DD70073C2BF /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 21CB866A24538DD70073C2BF /* SceneDelegate.swift */; };
+		21CB866D24538DD70073C2BF /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 21CB866C24538DD70073C2BF /* ViewController.swift */; };
+		21CB867024538DD70073C2BF /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 21CB866E24538DD70073C2BF /* Main.storyboard */; };
+		21CB867224538DD80073C2BF /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 21CB867124538DD80073C2BF /* Assets.xcassets */; };
+		21CB867524538DD80073C2BF /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 21CB867324538DD80073C2BF /* LaunchScreen.storyboard */; };
+		21CB868024538DD90073C2BF /* DownFallGameTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 21CB867F24538DD90073C2BF /* DownFallGameTests.swift */; };
+		21CB868B24538DD90073C2BF /* DownFallGameUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 21CB868A24538DD90073C2BF /* DownFallGameUITests.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		21CB867C24538DD90073C2BF /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 21CB865D24538DD70073C2BF /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 21CB866424538DD70073C2BF;
+			remoteInfo = DownFallGame;
+		};
+		21CB868724538DD90073C2BF /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 21CB865D24538DD70073C2BF /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 21CB866424538DD70073C2BF;
+			remoteInfo = DownFallGame;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		21CB866524538DD70073C2BF /* DownFallGame.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = DownFallGame.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		21CB866824538DD70073C2BF /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		21CB866A24538DD70073C2BF /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
+		21CB866C24538DD70073C2BF /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		21CB866F24538DD70073C2BF /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		21CB867124538DD80073C2BF /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		21CB867424538DD80073C2BF /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		21CB867624538DD80073C2BF /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		21CB867B24538DD80073C2BF /* DownFallGameTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = DownFallGameTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		21CB867F24538DD90073C2BF /* DownFallGameTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DownFallGameTests.swift; sourceTree = "<group>"; };
+		21CB868124538DD90073C2BF /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		21CB868624538DD90073C2BF /* DownFallGameUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = DownFallGameUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		21CB868A24538DD90073C2BF /* DownFallGameUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DownFallGameUITests.swift; sourceTree = "<group>"; };
+		21CB868C24538DD90073C2BF /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		21CB866224538DD70073C2BF /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		21CB867824538DD80073C2BF /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		21CB868324538DD90073C2BF /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		21CB865C24538DD70073C2BF = {
+			isa = PBXGroup;
+			children = (
+				21CB866724538DD70073C2BF /* DownFallGame */,
+				21CB867E24538DD90073C2BF /* DownFallGameTests */,
+				21CB868924538DD90073C2BF /* DownFallGameUITests */,
+				21CB866624538DD70073C2BF /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		21CB866624538DD70073C2BF /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				21CB866524538DD70073C2BF /* DownFallGame.app */,
+				21CB867B24538DD80073C2BF /* DownFallGameTests.xctest */,
+				21CB868624538DD90073C2BF /* DownFallGameUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		21CB866724538DD70073C2BF /* DownFallGame */ = {
+			isa = PBXGroup;
+			children = (
+				21CB866824538DD70073C2BF /* AppDelegate.swift */,
+				21CB866A24538DD70073C2BF /* SceneDelegate.swift */,
+				21CB866C24538DD70073C2BF /* ViewController.swift */,
+				21CB866E24538DD70073C2BF /* Main.storyboard */,
+				21CB867124538DD80073C2BF /* Assets.xcassets */,
+				21CB867324538DD80073C2BF /* LaunchScreen.storyboard */,
+				21CB867624538DD80073C2BF /* Info.plist */,
+			);
+			path = DownFallGame;
+			sourceTree = "<group>";
+		};
+		21CB867E24538DD90073C2BF /* DownFallGameTests */ = {
+			isa = PBXGroup;
+			children = (
+				21CB867F24538DD90073C2BF /* DownFallGameTests.swift */,
+				21CB868124538DD90073C2BF /* Info.plist */,
+			);
+			path = DownFallGameTests;
+			sourceTree = "<group>";
+		};
+		21CB868924538DD90073C2BF /* DownFallGameUITests */ = {
+			isa = PBXGroup;
+			children = (
+				21CB868A24538DD90073C2BF /* DownFallGameUITests.swift */,
+				21CB868C24538DD90073C2BF /* Info.plist */,
+			);
+			path = DownFallGameUITests;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		21CB866424538DD70073C2BF /* DownFallGame */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 21CB868F24538DD90073C2BF /* Build configuration list for PBXNativeTarget "DownFallGame" */;
+			buildPhases = (
+				21CB866124538DD70073C2BF /* Sources */,
+				21CB866224538DD70073C2BF /* Frameworks */,
+				21CB866324538DD70073C2BF /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = DownFallGame;
+			productName = DownFallGame;
+			productReference = 21CB866524538DD70073C2BF /* DownFallGame.app */;
+			productType = "com.apple.product-type.application";
+		};
+		21CB867A24538DD80073C2BF /* DownFallGameTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 21CB869224538DD90073C2BF /* Build configuration list for PBXNativeTarget "DownFallGameTests" */;
+			buildPhases = (
+				21CB867724538DD80073C2BF /* Sources */,
+				21CB867824538DD80073C2BF /* Frameworks */,
+				21CB867924538DD80073C2BF /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				21CB867D24538DD90073C2BF /* PBXTargetDependency */,
+			);
+			name = DownFallGameTests;
+			productName = DownFallGameTests;
+			productReference = 21CB867B24538DD80073C2BF /* DownFallGameTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		21CB868524538DD90073C2BF /* DownFallGameUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 21CB869524538DD90073C2BF /* Build configuration list for PBXNativeTarget "DownFallGameUITests" */;
+			buildPhases = (
+				21CB868224538DD90073C2BF /* Sources */,
+				21CB868324538DD90073C2BF /* Frameworks */,
+				21CB868424538DD90073C2BF /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				21CB868824538DD90073C2BF /* PBXTargetDependency */,
+			);
+			name = DownFallGameUITests;
+			productName = DownFallGameUITests;
+			productReference = 21CB868624538DD90073C2BF /* DownFallGameUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		21CB865D24538DD70073C2BF /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 1130;
+				LastUpgradeCheck = 1130;
+				ORGANIZATIONNAME = "Konstantine Nikka-Sher Piterman";
+				TargetAttributes = {
+					21CB866424538DD70073C2BF = {
+						CreatedOnToolsVersion = 11.3;
+					};
+					21CB867A24538DD80073C2BF = {
+						CreatedOnToolsVersion = 11.3;
+						TestTargetID = 21CB866424538DD70073C2BF;
+					};
+					21CB868524538DD90073C2BF = {
+						CreatedOnToolsVersion = 11.3;
+						TestTargetID = 21CB866424538DD70073C2BF;
+					};
+				};
+			};
+			buildConfigurationList = 21CB866024538DD70073C2BF /* Build configuration list for PBXProject "DownFallGame" */;
+			compatibilityVersion = "Xcode 9.3";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 21CB865C24538DD70073C2BF;
+			productRefGroup = 21CB866624538DD70073C2BF /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				21CB866424538DD70073C2BF /* DownFallGame */,
+				21CB867A24538DD80073C2BF /* DownFallGameTests */,
+				21CB868524538DD90073C2BF /* DownFallGameUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		21CB866324538DD70073C2BF /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				21CB867524538DD80073C2BF /* LaunchScreen.storyboard in Resources */,
+				21CB867224538DD80073C2BF /* Assets.xcassets in Resources */,
+				21CB867024538DD70073C2BF /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		21CB867924538DD80073C2BF /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		21CB868424538DD90073C2BF /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		21CB866124538DD70073C2BF /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				21CB866D24538DD70073C2BF /* ViewController.swift in Sources */,
+				21CB866924538DD70073C2BF /* AppDelegate.swift in Sources */,
+				21CB866B24538DD70073C2BF /* SceneDelegate.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		21CB867724538DD80073C2BF /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				21CB868024538DD90073C2BF /* DownFallGameTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		21CB868224538DD90073C2BF /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				21CB868B24538DD90073C2BF /* DownFallGameUITests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		21CB867D24538DD90073C2BF /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 21CB866424538DD70073C2BF /* DownFallGame */;
+			targetProxy = 21CB867C24538DD90073C2BF /* PBXContainerItemProxy */;
+		};
+		21CB868824538DD90073C2BF /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 21CB866424538DD70073C2BF /* DownFallGame */;
+			targetProxy = 21CB868724538DD90073C2BF /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		21CB866E24538DD70073C2BF /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				21CB866F24538DD70073C2BF /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		21CB867324538DD80073C2BF /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				21CB867424538DD80073C2BF /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		21CB868D24538DD90073C2BF /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 13.2;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		21CB868E24538DD90073C2BF /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 13.2;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		21CB869024538DD90073C2BF /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = D8ZBA7RCZR;
+				INFOPLIST_FILE = DownFallGame/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = Nikka.DownFallGame;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		21CB869124538DD90073C2BF /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = D8ZBA7RCZR;
+				INFOPLIST_FILE = DownFallGame/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = Nikka.DownFallGame;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+		21CB869324538DD90073C2BF /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = D8ZBA7RCZR;
+				INFOPLIST_FILE = DownFallGameTests/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 13.2;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = Nikka.DownFallGameTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/DownFallGame.app/DownFallGame";
+			};
+			name = Debug;
+		};
+		21CB869424538DD90073C2BF /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = D8ZBA7RCZR;
+				INFOPLIST_FILE = DownFallGameTests/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 13.2;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = Nikka.DownFallGameTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/DownFallGame.app/DownFallGame";
+			};
+			name = Release;
+		};
+		21CB869624538DD90073C2BF /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = D8ZBA7RCZR;
+				INFOPLIST_FILE = DownFallGameUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = Nikka.DownFallGameUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = DownFallGame;
+			};
+			name = Debug;
+		};
+		21CB869724538DD90073C2BF /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = D8ZBA7RCZR;
+				INFOPLIST_FILE = DownFallGameUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = Nikka.DownFallGameUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = DownFallGame;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		21CB866024538DD70073C2BF /* Build configuration list for PBXProject "DownFallGame" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				21CB868D24538DD90073C2BF /* Debug */,
+				21CB868E24538DD90073C2BF /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		21CB868F24538DD90073C2BF /* Build configuration list for PBXNativeTarget "DownFallGame" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				21CB869024538DD90073C2BF /* Debug */,
+				21CB869124538DD90073C2BF /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		21CB869224538DD90073C2BF /* Build configuration list for PBXNativeTarget "DownFallGameTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				21CB869324538DD90073C2BF /* Debug */,
+				21CB869424538DD90073C2BF /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		21CB869524538DD90073C2BF /* Build configuration list for PBXNativeTarget "DownFallGameUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				21CB869624538DD90073C2BF /* Debug */,
+				21CB869724538DD90073C2BF /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 21CB865D24538DD70073C2BF /* Project object */;
+}
