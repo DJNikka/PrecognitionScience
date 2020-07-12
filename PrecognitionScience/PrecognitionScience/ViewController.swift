@@ -44,6 +44,7 @@ class ViewController: UIViewController {
     
     @IBAction func bPressed(_ sender: Any) {
         
+        
     
         numberDraw()
  prediction = "B"
@@ -55,11 +56,21 @@ class ViewController: UIViewController {
     }
     
     
+    @IBAction func cPressed(_ sender: Any) {
+        prediction = "C"
+        yourGuess.text = prediction
+        checkPrediction(prediction: prediction, result: result)
+        
+        correctGuesses.text = "\(correct)"
+              incorrectGuesses.text = "\(incorrect)"
+        
+    }
+    
     func numberDraw() {
   
    
         
-        let options = ["A", "B"]
+        let options = ["A", "B", "C", "D"]
         let randomOption = options.randomElement()!
                result = randomOption
         randomLetter.text = result
