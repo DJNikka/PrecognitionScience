@@ -57,12 +57,25 @@ class ViewController: UIViewController {
     
     
     @IBAction func cPressed(_ sender: Any) {
+        
+        numberDraw()
         prediction = "C"
         yourGuess.text = prediction
         checkPrediction(prediction: prediction, result: result)
         
         correctGuesses.text = "\(correct)"
               incorrectGuesses.text = "\(incorrect)"
+        
+    }
+    
+    @IBAction func dPressed(_ sender: Any) {
+       numberDraw()
+        prediction = "D"
+        yourGuess.text = prediction
+        checkPrediction(prediction: prediction, result: result)
+        
+      correctGuesses.text = "\(correct)"
+                  incorrectGuesses.text = "\(incorrect)"
         
     }
     
